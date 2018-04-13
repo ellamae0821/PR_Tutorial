@@ -1,214 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <head>
+        <title>Print Replica Tutorial - Website</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="css/navbar-fixed-side.css">
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-    <title>SA - Print Replica Tutorial</title>
+    </head>
+    <body>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet">
 
-  </head>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h4>Table of Contents</h4>
+                </div>
 
-  <body>
+                <ul class="list-unstyled components">
+                    <!-- <p>Dummy Heading</p> -->
+                    <li class="active">
+                        <a href="#log_in">Logging In</a>
+                    </li>
+                    <li>
+                        <a href="#log_out">Logging Out</a>
+                    </li>
+                    <li>
+                        <a href="#read">Reading the Article</a>
+                    </li>
+                    <li>
+                        <a href="#access">Accessing Links</a>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Print Replica Tutorial</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="search-container">
-              <form action="/action_page.php">
-                <form action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search">
-                  <button type="submit">Submit</button>
-                </form>
-            </li>
-          </ul>
+                    </li>
+                    <li>
+                        <a href="#change_font">Changing Font Size</a>
+                    </li>                    
+                    <li>
+                        <a href="#change_page">Changing The Page</a>
+                    </li>
+                    <li>
+                        <a href="#zoom_page">Zooming View</a>
+                    </li>
+                    <li>
+                        <a href="#past_papers">Search Past Editions</a>
+                    </li>
+                    <li>
+                        <a href="#share_article">Print / Share Article</a>
+                    </li>
+                    <li>
+                        <a href="#share_screenshot">Print / Share Screenshot</a>
+                    </li>
+                    <li>
+                        <a href="#listen_article">Listen to Article</a>
+                    </li>
+                    <li>
+                        <a href="#translate_article">Translate an Article</a>
+                    </li>
+                    <li>
+                        <a href="#lock">Locking Content</a>
+                    </li>
+                    <li>
+                        <a href="#pages">Pages Icon</a>
+                    </li>
+                    
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="index.html" class="article">Back to Main Page</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <h2>Tutorial for Print Replica - Web</h2>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <h2 id="log_in">How to Log In</h2>
+                    <p>&bull; Go to <a href="http://www.staradvertiser.com/" style="color: blue;">http://www.staradvertiser.com/</a> and click on the LOG IN button found on the upper right of the website. <br>
+                    &bull; Once you are logged in, click on PRINT REPLICA from the top menu and it will route you to the Print Replica page. <br>
+                    &bull; For users on mobile browser, you may find the PRINT REPLICA option inside the MENU list <img src="img/menu.png" style="width: 60px;"> .  </p>
+                <div class="card">
+                    <img src="img/print_replica.png">
+                </div>
+          
+
+                <div class="line"></div>
+
+                <h2 id="log_out">How to Log Out</h2>
+                    <p>&bull; Click on the Editions icon <img src="img/editions.png" style="width: 40px;"> and the Editions window will open.<br>&bull; Click on Account tab and click the Log out button.</p>
+
+                <div class="line"></div>
+
+                <h2 id="read">Reading the Article</h2>
+                    <p>&bull; Hovering over the paper highlights an article. <br>
+                    &bull; Clicking on an area of the page image displayed on the left side will load that content into the right side. </p>
+
+                <div class="line"></div>
+
+                <h2 id="access">Accessing Links</h2>
+                    <p>&bull; Clicking on the article's page links shows the continuation page of the article as it is on the physical print.<br>
+                    &bull; If the link is for an outside source, such as another website, it will open a new tab for the said link.</p>
+
+                <div class="line"></div>
+
+                <h2 id="change_font">Changing Font Size</h2>
+                    <p>&bull; When an article is loaded for viewing in the right side of the screen, several control icons will appear above it. <br>
+                    &bull; Click on the Increase Font / Decrease Font icon to adjust the font.</p>
+                <div class="card">
+                    <img class="card-img-top" src="img/font_size.png" style="width: 600px;">
+                </div>
+                <div class="line"></div>
+
+                <h2 id="change_page">Changing the Page</h2>
+                    <p>&bull; Pressing the arrows on the right and left sides of the page image will change pages. <br>
+                    &bull; You may also click on the next section arrows to jump to the next or previous section.</p>
+                <div class="line"></div>
+
+                <h2 id="zoom_page">Zooming my View</h2>
+                    <p>&bull; On Browse mode <img src="img/browse_icon.png" style="width: 40px;"> , single click/tap on the page image will zoom in or out. Double click/tap will open the content in Index viewing mode.<br>
+                    &bull; On Index viewing mode<img src="img/article_icon.png" style="width: 40px;"> , double click/tap will zoom in the area.</p>
+
+                <div class="line"></div>
+                <h2 id="past_papers">Search Past Editions</h2>
+                    <p>&bull; To access previous issues, click on the Editions Icon <img src="img/editions.png" style="width: 40px;"> at the right-side panel and you can select from the recent editions listed. <br>
+                    &bull; If you wish to access previous edition not on the list, you may search by clicking on the "Search the Archives" and select a date.</p><br>
+                <div class="card">
+                    <img src="img/search.png">
+                </div>
+                
+
+                <div class="line"></div>
+                <h2 id="share_article">Print / Download / Share an Article</h2>
+                    <p>&bull; When an article is loaded for viewing in the right side of the screen, several control icons will appear above it. <br>
+                    &bull; The Print icon offers a quick way to print.  <br>
+                    &bull; After clicking the print icon, the printer set-up should pop-up.</p><br>
+                <div class="card">
+                    <img class="card-img-top" src="img/print.png">
+                </div>
+                <div class="card" style="padding-top: 20px;">
+                    <p>&bull; To share an article, the share icon will open a Sharing menu which allows you to select from several methods (Email, Print, Facebook, Twitter, etc).</p>
+                </div>
+                
+                    
+                </p></p>
+                <div class="card">
+                    <img class="card-img-top" src="img/share.png">
+                </div>
+
+                <div class="line"></div>
+                <h2 id="share_screenshot">Print / Download / Email  a  Screenshot</h2>
+                    <p>&bull; To print, download, or email a portion of the page, you should be on "Browse" mode. <img src="img/browse_icon.png" style="width: 40px;"> <br>
+                    &bull; Click on the share icon that will appear on the upper right.<br> 
+                    &bull; Crop the portion you wish to share and click print/download or email.<br></p>
+                <div class="card">
+                    <img class="card-img-top" src="img/screenshot_share.gif" style="width: 600px;">
+                </div>
+
+                <div class="line"></div>
+                <h2 id="listen_article">Listen to an Article</h2>
+                    <p>&bull; To listen to an article, while on Index viewing mode <img src="img/article_icon.png" style="width: 40px;"> , click on an article you want to listen. <br>
+                    &bull; On the right side, click Listen to Article icon from the top control area, then a play button will be available for you click and start the audio.<br></p>
+
+                <div class="card">
+                    <img class="card-img-top" src="img/listen.png" style="width: 600px;">
+                </div>
+                <div class="line"></div>
+                <h2 id="translate_article">Translate an Article</h2>
+                    <p>&bull; To translate  an article, while on Index viewing mode <img src="img/article_icon.png" style="width: 40px;"> , click on an article you want to translate. <br>
+                    &bull; On the right side, click on the "Translate to" dropdown and select the desired language.<br> </p>
+                <div class="card">
+                    <img class="card-img-top" src="img/translate.png" style="width: 600px;">
+                </div>
+
+                <div class="line"></div>
+                <h2 id="lock">Locking Content on Browse Mode</h2>
+                    <p>&bull; Enabling the "lock" will prevent your ability to click/tap on content in Browse mode and have it open in Index viewing mode. <img src="img/article_icon.png" style="width: 40px;"> <br>&bull; If you prefer to read all pages in our graphical Browse mode, you may choose to "lock" the mode so that you do not accidentally cause the system to switch to Index viewing mode.<br> &bull; Even if "locked", you can still open content in the Index viewing mode by selecting the Index icon from the main control bar on the right. <br>
+                    &bull; To enable lock, hover over the Browse mode <img src="img/browse_icon.png" style="width: 40px;"> and click on the Lock icon.</p>
+                <div class="card">
+                    <img class="card-img-top" src="img/lock.png" style="width: 600px;">
+                </div>
+
+                <div class="line"></div>
+                <h2 id="pages">What is the Pages icon for?</h2>
+                    <p>&bull; From the Pages Mode <img src="img/pages_icon.png" style="width: 40px;"> you can see small images of all pages in the edition you are viewing. This is an easy way to quickly scan through the entire publication. Click on any page image to open it for viewing. Most publications also allow downloading pages as PDF files from this viewing mode.</p>
+
+
+
+            </div>
         </div>
-      </div>
-    </nav>
 
-    <!-- Page Content -->
-    
-    <div class="container">
-      <div class="row">
-        <a href="#top" id="scroll" style="display: none;"><span></span></a>
-        <div class="col-lg-3">
-          <h2 class="my-4">Using a Browser</h2>
-          <div class="list-group" id="how_tos">
-            <a href="#read_article" class="list-group-item">Reading the Article</a>
-            <a href="#continuation_page" class="list-group-item">Accessing Links</a>
-            <a href="#change_font" class="list-group-item">Changing Font Size</a>
-            <a href="#change_page" class="list-group-item">Changing The Page</a>
-            <a href="#access_past" class="list-group-item">Accessing Past Papers</a>
-            <a href="#print_article" class="list-group-item" style="font-size: 14px;">Article Print / Download / Share</a>
-            <a href="#screenshot_article" class="list-group-item" style="font-size: 14px;">Screenshot Print or Download</a>
-            <a href="#listen_article" class="list-group-item">Listen To Article</a>
-            <a href="#translate_article" class="list-group-item">Translating Articles</a>
+<!-- 
+- Logging in // 
+- Logging out //
+- Navigating and reading the paper //
+- Changing the page //
+- Page view and Text view //
+- Accessing past papers //
+- Managing your email alert xx 
+- Saving an article to a collection xx
+- Deleting saved articles xx
+- Monitoring topics xx 
+- Topic alerts xx
+- Reading and making comments xx
+- Sharing an article//
+- Printing an article or page//
+- Using Text-to-Speech//
+- Translating articles//
+ -->
 
-          </div>
-        </div>
-        <!-- /.col-lg-3 -->
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-        <a class="anchor" id="top"></a>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
 
-        <div class="col-lg-9">
-          <div class="hidden_search" style="height: 60px;" id="read_article"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Reading the Article</h3>
-              <p class="card-text">Hovering over the paper highlights an article. Clicking on an article will open the full article in the TEXT VIEW while double clicking an article zooms it in. </p>
-            </div>
-            <img id="read_article" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3a2g0V1J3c0k1k0Q2l1A/003-01%20Reading%20Articles.gif" alt="Reading the Paper">
-          </div>
-
-          <div class="hidden_search" id="continuation_page"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title" >Accessing Links</h3>
-              <p class="card-text">Clicking on the article's page links shows the continuation page of the article as it is on the physical print. If the link is for an outside source, such as another website, it will open a new tab for the said link. </p>
-              <img class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/2F2q2b331L3s3C3S2p0Q/Screen%20Recording%202018-04-06%20at%2009.59%20AM.gif" alt="Continuation Page">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="change_font"></div>
-          <div class="card mt-4" >
-            <div class="card-body">
-              <h3 class="card-title">Changing Font Size</h3>
-              <p class="card-text"> To change the font size, while on "Article View", click on the Increase Font / Decrease Font Logo to adjust the font. </p>
-              <img  class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/0m2C0W0M3K382T3l070S/Screen%20Recording%202018-04-09%20at%2011.29%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="change_page"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title" >Changing the Page</h3>
-              <p class="card-text">To go to the next page, click on the next page button found in the middle right of the page or back to go back to the previous page. You may also click on the next section button to jump to the next section. </p>
-              <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3O2O0v0q0t250U040k10/Screen%20Recording%202018-04-06%20at%2010.58%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="access_past"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-            <h3 class="card-title">Accessing Past Papers</h3>
-              <p class="card-text">To access previous issues, click on the Editions Icon at the right-side panel and select the by recent editions or access through searching archive date.  </p>
-            <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3w271G0l0o09300B0N2k/Screen%20Recording%202018-04-06%20at%2011.45%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="print_article"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-            <h3 class="card-title">Print / Download / Share an article</h3>
-            <p class="card-text">To print an Article while on the "Article" mode, select an article on the navigation panel and find the {{PRINTER}} button on the top option. After clicking the print button, the printer set-up should pop-up.</p>
-            <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3O2O0v0q0t250U040k10/Screen%20Recording%202018-04-06%20at%2010.58%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="screenshot_article"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Print / Download / Email a Screenshot</h3>
-              <p class="card-text">To print/download/email a portion of the page, you should be on "Browse" mode (full screen) of an article and click on the share (share button photo) button that will appear on the upper right. Crop the portion you wish to print/download and click print/download or email.</p>
-              <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3O2O0v0q0t250U040k10/Screen%20Recording%202018-04-06%20at%2010.58%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="listen_article"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h3 class="card-title">Listen to an Article</h3>
-              <p class="card-text">To listen to an article, while on "Article" view, click on an article you want to listen to and select the Listen to Article(Listen to Article img) button then a play button will be available for you click and start the audio.</p>
-              <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3O2O0v0q0t250U040k10/Screen%20Recording%202018-04-06%20at%2010.58%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="hidden_search" id="translate_article"></div>
-          <div class="card mt-4">
-            <div class="card-body">
-            <h3 class="card-title">Translate an Article</h3>
-              <p class="card-text">To translate articles, while on "Article" view, click on an article you want to translate and from the top menu select from the dropdown the Language you want it to be translated to.</p>
-            <img id="change_page" class="card-img-top img-fluid" src="https://dr5mo5s7lqrtc.cloudfront.net/items/3O2O0v0q0t250U040k10/Screen%20Recording%202018-04-06%20at%2010.58%20AM.gif" alt="Change Font">
-            </div>
-          </div>
-
-          <div class="card mt-4">
-             <h4 class="card-title" style="text-align: center"> <a href="#top"> Back to Top</a></h4>
-          </div>
-        
-        <!-- /.col-lg-9 -->
-
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // Get the container element
-      var btnContainer = document.getElementById("how_tos");
-
-      // Get all buttons with class="btn" inside the container
-      var btns = btnContainer.getElementsByClassName("list-group-item");
-
-      // Loop through the buttons and add the active class to the current/clicked button
-      for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-        });
-      }
-    </script>
-    <script>
-            
-      $(document).ready(function(){ 
-          $(window).scroll(function(){ 
-              if ($(this).scrollTop() > 100) { 
-                  $('#scroll').fadeIn(); 
-              } else { 
-                  $('#scroll').fadeOut(); 
-              } 
-          }); 
-          $('#scroll').click(function(){ 
-              $("html, body").animate({ scrollTop: 0 }, 600); 
-              return false; 
-          }); 
-      });
-      </script>
-  </body>
-
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+    </body>
 </html>
