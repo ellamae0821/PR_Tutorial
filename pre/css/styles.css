@@ -3,12 +3,6 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
  */
- 
- .group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 body {
   padding-top: 54px;
@@ -102,105 +96,5 @@ input[type=text] {
     background-color:#e74c3c;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
-}
-
-/* ========================== */
-/* \\\\\\\ J2's Styling ///// */
-/* ========================== */
-
-body, p, a, span, h1, h2, h3, h4 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    color: #2a91e4;
-}
-
-h2 {
-    font-weight:600;
-}
-
-h2.main-title {
-    font-weight: 700;
-    font-size: 4.2rem;
-    letter-spacing: -1px;
-    padding: 0;
-    margin: 0 0 1.5rem 0;
-}
-
-#sidebar {
-    background: #eee;
-    color: #444;
-}
-
-#sidebar .sidebar-header {
-    background: #eee;
-    border-bottom: 1px solid #ddd;
-}
-
-#sidebar a:hover {
-    color: #777 !important;
-}
-
-#sidebar .sidebar-header h4 {
-    font-size: 2.3rem;
-}
-
-
-#sidebar .sidebar-header h4 {
-    font-weight: 700;
-}
-
-.sa-header {
-    background: #080808;
-    height: 80px;
-    line-height: 80px;
-    text-align: right;
-}
-
-.header-links {
-    list-style: none;
-}
-
-.header-links li {
-    display: inline-block;
-    line-height: normal;
-}
-
-.header-links li a {
-    color: #fff;
-    padding: 0 2.5rem;
-    font-size: 1.8rem;
-}
-
-@media screen and (max-width: 478px) {
-    .header-links li a {
-        padding: 0 1.0rem;
-    }
-    
-    .navbar-brand img {
-        width: 140px;
-        padding: 0.8rem 0 0 0
-    }
-}
-
-
-#content {
-    padding: 0;
-}
-
-.tutorial-content {
-    padding: 0 40px 20px 40px;
-}
-
-.tutorial-content a {
-    color: #3071a6 !important;
-}
-
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
-    width: 100%;
 }
 

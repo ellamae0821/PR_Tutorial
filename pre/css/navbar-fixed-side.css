@@ -134,7 +134,7 @@ a.download {
     color: #7386D5;
 }
 a.article, a.article:hover {
-    background: #0078d9 !important;
+    background: #6d7fcc !important;
     color: #fff !important;
 }
 
@@ -155,10 +155,6 @@ a.article, a.article:hover {
     width: 100%;
 }
 
-.card-img-top{
-    width: 600px;
-    padding-bottom: 40px;
-}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -181,14 +177,4 @@ a.article, a.article:hover {
     }
 }
 
-@media (max-width: 450px) {
-    .card-img-top{
-        width: 300px;
-        padding-bottom: 30px;
-    }
-}
 
-.imgshadow {
-    padding-top: 15px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
